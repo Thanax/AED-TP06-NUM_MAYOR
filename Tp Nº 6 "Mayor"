@@ -1,0 +1,24 @@
+
+/*Gonzalo Martin Lucena K1051
+/*22/04/2015
+/*Tp Nº 6 "Mayor" Algoritmos y Estructura de Datos, El usuario ingresa una serie de numeros y el programa determina
+/*cual es el mayor de ellos
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    int mayor = 0;
+    while (n != 0) {
+          cout << "Ingrese un numero o sino ingrese 0 para terminar y mostrar el mayor: \n";
+          cin >> n;
+          if (n > mayor) 
+             mayor = n;
+    }
+    cout << "El mayor de los numeros ingresados es: " << mayor << endl;
+    cin >> n;
+    return 0;
+}
